@@ -1,6 +1,6 @@
+import 'package:assistant_beta_openai/assistant_beta_openai.dart';
 import 'package:example/common/env/env.dart';
 import 'package:flutter/material.dart';
-import 'package:openai_assistant/openai_assistant.dart';
 
 void main() {
   runApp(const MainApp());

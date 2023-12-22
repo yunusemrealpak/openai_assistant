@@ -1,7 +1,7 @@
-name: openai_assistant
-description: "A new Flutter package project."
-version: 0.0.1
-publish_to: none
+name: assistant_beta_openai
+description: This package is designed to integrate OpenAI's assistant beta api into Flutter applications
+version: 0.1.0
+homepage: https://github.com/yunusemrealpak/openai_assistant
 
 environment:
   sdk: '>=3.2.3 <4.0.0'

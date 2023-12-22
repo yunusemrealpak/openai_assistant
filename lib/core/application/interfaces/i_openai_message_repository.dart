@@ -1,5 +1,5 @@
-import 'package:openai_assistant/common/utils/typedef.dart';
-import 'package:openai_assistant/core/domain/entities/message/thread_message.dart';
+import 'package:assistant_beta_openai/common/utils/typedef.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/thread_message.dart';
 
 import '../../domain/entities/message/message.dart';
 

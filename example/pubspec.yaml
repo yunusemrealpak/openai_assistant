@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   envied: ^0.5.2
-  openai_assistant:
+  assistant_beta_openai:
     path: ../
 
 dev_dependencies:

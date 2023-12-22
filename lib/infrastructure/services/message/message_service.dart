@@ -1,6 +1,6 @@
-import 'package:openai_assistant/common/utils/record_utils.dart';
-import 'package:openai_assistant/core/application/interfaces/i_openai_message_repository.dart';
-import 'package:openai_assistant/core/domain/entities/message/message.dart';
+import 'package:assistant_beta_openai/common/utils/record_utils.dart';
+import 'package:assistant_beta_openai/core/application/interfaces/i_openai_message_repository.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/message.dart';
 
 import '../../../core/domain/entities/message/thread_message.dart';
 import '../../repositories/openai_message_repository.dart';

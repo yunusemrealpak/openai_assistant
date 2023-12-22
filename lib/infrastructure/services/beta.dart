@@ -1,9 +1,9 @@
-import 'package:openai_assistant/common/utils/record_utils.dart';
-import 'package:openai_assistant/core/domain/entities/message/message.dart';
-import 'package:openai_assistant/core/domain/entities/message/thread_message.dart';
-import 'package:openai_assistant/infrastructure/services/message/message_service.dart';
-import 'package:openai_assistant/infrastructure/services/run/run_service.dart';
-import 'package:openai_assistant/infrastructure/services/thread/thread_service.dart';
+import 'package:assistant_beta_openai/common/utils/record_utils.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/message.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/thread_message.dart';
+import 'package:assistant_beta_openai/infrastructure/services/message/message_service.dart';
+import 'package:assistant_beta_openai/infrastructure/services/run/run_service.dart';
+import 'package:assistant_beta_openai/infrastructure/services/thread/thread_service.dart';
 
 import '../../core/application/exceptions/missing_arguments_exception.dart';
 

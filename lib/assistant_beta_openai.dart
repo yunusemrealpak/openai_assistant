@@ -1,4 +1,4 @@
-library openai_assistant;
+library assistant_beta_openai;
 
 export 'core/application/exceptions/missing_arguments_exception.dart';
 export 'core/domain/entities/message/message.dart';

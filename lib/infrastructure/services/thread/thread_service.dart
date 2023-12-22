@@ -1,5 +1,5 @@
-import 'package:openai_assistant/common/utils/record_utils.dart';
-import 'package:openai_assistant/core/application/interfaces/i_openai_thread_repository.dart';
+import 'package:assistant_beta_openai/common/utils/record_utils.dart';
+import 'package:assistant_beta_openai/core/application/interfaces/i_openai_thread_repository.dart';
 
 import '../../../core/domain/entities/message/message.dart';
 import '../../repositories/openai_thread_repository.dart';

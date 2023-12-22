@@ -1,8 +1,8 @@
+import 'package:assistant_beta_openai/common/utils/typedef.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/message.dart';
+import 'package:assistant_beta_openai/core/domain/entities/thread/thread.dart';
+import 'package:assistant_beta_openai/infrastructure/network/i_app_network_manager.dart';
 import 'package:busenet/busenet.dart';
-import 'package:openai_assistant/common/utils/typedef.dart';
-import 'package:openai_assistant/core/domain/entities/message/message.dart';
-import 'package:openai_assistant/core/domain/entities/thread/thread.dart';
-import 'package:openai_assistant/infrastructure/network/i_app_network_manager.dart';
 
 import '../../common/utils/record_utils.dart';
 import '../../core/application/interfaces/i_openai_thread_repository.dart';

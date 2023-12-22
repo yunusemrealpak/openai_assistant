@@ -1,7 +1,7 @@
+import 'package:assistant_beta_openai/common/utils/typedef.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/message.dart';
+import 'package:assistant_beta_openai/core/domain/entities/message/thread_message.dart';
 import 'package:busenet/busenet.dart';
-import 'package:openai_assistant/common/utils/typedef.dart';
-import 'package:openai_assistant/core/domain/entities/message/message.dart';
-import 'package:openai_assistant/core/domain/entities/message/thread_message.dart';
 
 import '../../common/utils/record_utils.dart';
 import '../../core/application/interfaces/i_openai_message_repository.dart';

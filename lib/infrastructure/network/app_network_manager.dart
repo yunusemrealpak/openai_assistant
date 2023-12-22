@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:assistant_beta_openai/common/constants/config.dart';
 import 'package:busenet/busenet.dart';
-import 'package:openai_assistant/common/constants/config.dart';
 
 import 'i_app_network_manager.dart';
 import 'model/response_model.dart';

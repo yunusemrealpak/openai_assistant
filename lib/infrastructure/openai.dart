@@ -1,5 +1,5 @@
-import 'package:openai_assistant/infrastructure/network/app_network_manager.dart';
-import 'package:openai_assistant/infrastructure/services/beta.dart';
+import 'package:assistant_beta_openai/infrastructure/network/app_network_manager.dart';
+import 'package:assistant_beta_openai/infrastructure/services/beta.dart';
 
 class OpenAI {
   static final OpenAI _instance = OpenAI._();
