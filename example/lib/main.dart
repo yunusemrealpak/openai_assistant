@@ -68,6 +68,9 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Assistant Beta OpenAI'),
+        ),
         body: Column(
           children: [
             Expanded(

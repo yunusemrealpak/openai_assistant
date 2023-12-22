@@ -39,19 +39,18 @@ final class OpenAIThreadRepository implements IOpenAIThreadRepository {
   }
 
   @override
-  EitherFuture<void> deleteThread(String threadId) async {
+  EitherFuture<bool> deleteThread(String threadId) async {
     final response = await _manager.fetch<NoResultResponse, NoResultResponse>(
       "/threads/$threadId",
       type: HttpTypes.delete,
       parserModel: NoResultResponse(),
-      ignoreEntityKey: true,
     );
 
     if (response.errorType != null) {
       return left(response.errorType!);
     }
 
-    return right(null);
+    return right(true);
   }
 
   @override
