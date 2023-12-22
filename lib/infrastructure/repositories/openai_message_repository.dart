@@ -54,7 +54,6 @@ final class OpenAIMessageRepository implements IOpenAIMessageRepository {
       "/threads/$threadId/messages",
       type: HttpTypes.get,
       parserModel: ThreadMessage(),
-      ignoreEntityKey: true,
     );
 
     if (response.errorType != null) {

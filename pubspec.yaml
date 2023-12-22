@@ -1,6 +1,6 @@
 name: assistant_beta_openai
 description: This package is designed to integrate OpenAI's assistant beta api into Flutter applications
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/yunusemrealpak/openai_assistant
 
 environment:
